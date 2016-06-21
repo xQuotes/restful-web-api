@@ -12,8 +12,8 @@
 
 ```json
 {
-    username: '',
-    password: ''
+    "username": "",
+    "password": ""
 }
 ```
 
@@ -21,28 +21,28 @@
 
 ```json
 {
-    code: 200,
-    message: '登录成功',
-    data: {
-        token: '',
-        username: ''
+    "code": 200,
+    "message": "登录成功",
+    "data": {
+        "token": "",
+        "username": ""
     }
 }
 ```
 
 ```json
 {
-    code: 401,
-    message: '用户名或者密码错误', 
-    data: {}
+    "code": 401,
+    "message": "用户名或者密码错误", 
+    "data": {}
 }
 ```
 
 ```json
 {
-    code: xxx,  //其他错误
-    message: '其他错误', 
-    data: {}
+    "code": "xxx",  //其他错误
+    "message": "其他错误", 
+    "data": {}
 }
 ```
 
@@ -60,7 +60,7 @@
 
 ```json
 {
-    id: ''
+    id: ""
 }
 ```
 
@@ -68,10 +68,10 @@
 
 ```json
 {
-    code: 200,
-    message: '获取成功',
-    data: {
-        id: '',
+    "code": 200,
+    "message": "获取成功",
+    "data": {
+        id: "",
         ...
     } // 没有数据的时候，data为空
 }
@@ -79,17 +79,17 @@
 
 ```json
 {
-    code: 401,
-    message: '没有权限', 
-    data: {}
+    "code": 401,
+    "message": "没有权限", 
+    "data": {}
 }
 ```
 
 ```json
 {
-    code: xxx,  //其他错误
-    message: '其他错误', 
-    data: {}
+    "code": "xxx",  //其他错误
+    "message": "其他错误", 
+    "data": {}
 }
 ```
 
@@ -111,10 +111,10 @@
 
 ```json
 {
-    code: 200,
-    message: '获取成功',
-    data: {
-        id: '',
+    "code": 200,
+    "message": "获取成功",
+    "data": {
+        id: "",
         ...
     } // 没有数据的时候，data为空
 }
@@ -122,17 +122,17 @@
 
 ```json
 {
-    code: 401,
-    message: '没有权限', 
-    data: {}
+    "code": 401,
+    "message": "没有权限", 
+    "data": {}
 }
 ```
 
 ```json
 {
-    code: xxx,  //其他错误
-    message: '其他错误', 
-    data: {}
+    "code": "xxx",  //其他错误
+    "message": "其他错误", 
+    "data": {}
 }
 ```
 
@@ -156,10 +156,10 @@
 
 ```json
 {
-    code: 200,
-    message: '添加成功',
-    data: {
-        id: '',
+    "code": 200,
+    "message": "添加成功",
+    "data": {
+        id: "",
         ...
     }
 }
@@ -167,17 +167,17 @@
 
 ```json
 {
-    code: 401,
-    message: '没有权限', 
-    data: {}
+    "code": 401,
+    "message": "没有权限", 
+    "data": {}
 }
 ```
 
 ```json
 {
-    code: xxx,  //其他错误
-    message: '其他错误', 
-    data: {}
+    "code": "xxx",  //其他错误
+    "message": "其他错误", 
+    "data": {}
 }
 ```
 
@@ -193,7 +193,7 @@
 
 ```json
 {
-    id: '',
+    id: "",
     ...
 }
 ```
@@ -202,10 +202,10 @@
 
 ```json
 {
-    code: 200,
-    message: '修改成功',
-    data: {
-        id: '',
+    "code": 200,
+    "message": "修改成功",
+    "data": {
+        id: "",
         ...
     }
 }
@@ -213,17 +213,17 @@
 
 ```json
 {
-    code: 401,
-    message: '没有权限', 
-    data: {}
+    "code": 401,
+    "message": "没有权限", 
+    "data": {}
 }
 ```
 
 ```json
 {
-    code: xxx,  //其他错误
-    message: '其他错误', 
-    data: {}
+    "code": "xxx",  //其他错误
+    "message": "其他错误", 
+    "data": {}
 }
 ```
 
@@ -239,7 +239,7 @@
 
 ```json
 {
-    id: '',
+    id: "",
     ...
 }
 ```
@@ -248,10 +248,10 @@
 
 ```json
 {
-    code: 200,
-    message: '修改成功',
-    data: {
-        id: '',
+    "code": 200,
+    "message": "修改成功",
+    "data": {
+        id: "",
         ...
     }
 }
@@ -259,23 +259,23 @@
 
 ```json
 {
-    code: 401,
-    message: '没有权限', 
-    data: {}
+    "code": 401,
+    "message": "没有权限", 
+    "data": {}
 }
 ```
 
 ```json
 {
-    code: xxx,  //其他错误
-    message: '其他错误', 
-    data: {}
+    "code": "xxx",  //其他错误
+    "message": "其他错误", 
+    "data": {}
 }
 ```
 
 ### 注释
 
-1. code: 
+1. "code": 
 
     200: 获取成功
     401: 登录失败 或者 没有权限
